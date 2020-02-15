@@ -13,13 +13,16 @@
 #define RUTASC_RUTASC_H
 
 
+/**
+ * Localidades definidas
+ */
 
 struct LOCALIDAD {
 
     int id;
 
     double lat;
-    double lon;
+    double lng;
 
     double x;
     double y;
@@ -27,10 +30,24 @@ struct LOCALIDAD {
 
     int pob;
 
-
 };
 
-
 typedef struct LOCALIDAD* PLoc;
+
+/**
+ * Rutas
+ */
+
+struct RUTA{
+
+    int ruta_id;
+
+    int *pids;
+
+    int costot;
+};
+
+typedef struct RUTA* PRuta;
+
 
 #endif //RUTASC_RUTASC_H
