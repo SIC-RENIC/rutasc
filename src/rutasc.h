@@ -30,6 +30,8 @@ struct LOCALIDAD {
 
     int pob;
 
+    struct LOCALIDAD* ploc;
+
 };
 
 typedef struct LOCALIDAD* PLoc;
@@ -42,7 +44,7 @@ struct RUTA{
 
     int ruta_id;
 
-    int *pids;
+    PLoc p;
 
     int costot;
 };

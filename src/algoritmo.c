@@ -10,6 +10,8 @@
 
 double calculaDistancia(PLoc p1, PLoc p2);
 void buscaRuta(PRuta pruta, PLoc ploc);
+void buscaSiguienteP(PRuta pruta);
+
 
 
 /**
@@ -37,6 +39,19 @@ double calculaDistancia(PLoc p1, PLoc p2){
  */
 void buscaRuta(PRuta pruta, PLoc ploc){
 
+
+}
+
+void buscaSiguienteP(PRuta pruta) {
+
+
+
+
 }
 
 
+
+
+double calculaReduccionCosto(PRuta pruta,PLoc p){
+
+}

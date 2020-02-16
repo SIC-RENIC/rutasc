@@ -32,7 +32,7 @@ int main(int cargs, char **args){
 
     if (cargs < 8) {
         fprintf(stderr, "No estan completos los parámetros:\n");
-        fprintf(stderr, "\nrutasc CantiLocs CantiEventos ArchivoLoc ArchivoEve ArchivoSal\n\n");
+        fprintf(stderr, "\nrutasc CantiLocs CantiEventos ArchivoLoc ArchivoREve ArchivoSal\n\n");
         fprintf(stderr, "\t CantiLocs:\tCantidad de localidades\n");
 
         return 1;

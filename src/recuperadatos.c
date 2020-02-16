@@ -61,6 +61,8 @@ void cargaArchivoLocs(char * archlocs, PLoc ploc){
 
         p->pob=pob;
 
+        p->ploc=NULL;
+
         i++;
     }
 
